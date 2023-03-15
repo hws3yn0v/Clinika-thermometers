@@ -1,0 +1,301 @@
+#nav-bar{
+    background-image: url(/Clinika/image/top-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#image{
+    background-image: url(/Clinika/image/Clinika-pattern_top.png);
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    padding: 245px 0 20px 0;
+    margin: -255px 0 -115px 0;
+}
+
+.navbar{
+    background-color: transparent !important;
+    margin-left: 8rem !important;
+}
+
+.navbar img{
+    margin: 0 3rem 0 0;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.btn{
+    border-radius: 100px;
+    width: 170px;
+    height: 50px;
+}
+
+.header{
+    display: flex;
+}
+
+.header-left{
+    padding: 8rem 0 0 8rem;
+}
+
+.header-left h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.header-left p{
+    color: #fff;
+}
+
+
+.header-right img{
+    height: 80%;
+    margin-left: 4rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.title h1{
+    position: relative;
+    color: #f7f7f7;
+    font-size: 150px;
+    z-index: -0.1;
+    margin-bottom: 4rem;
+}
+
+.title h3{
+    position: absolute;
+    margin-top: 7.7rem;
+    z-index: 1;
+}
+
+.card{
+    background-color: #f2f2f2;
+}
+
+.box{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.card-icons{
+    background-color: #fff;
+    width: 35px;
+    height: 150px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-icons>i{
+    color: black;
+}
+
+.card-icons>i:hover{
+    color: cornflowerblue;
+}
+
+.card-title{
+    margin-left: 25px;
+}
+
+.card-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+
+.image>img{
+    transition: 1s;
+    width: 80%;
+    height: 80%;
+}
+
+.btn2{
+    margin-left: 35rem;
+}
+
+#main1{
+    background-image: url(/Clinika/image/main-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 5rem;
+    z-index: -2;
+}
+
+.second-title h1{
+    position: relative;
+    color: #557392;
+    font-size: 150px;
+    z-index: -0.1;
+    margin-bottom: 4rem;
+}
+
+.second-title h3{
+    color: #fff;
+}
+
+.second-tp{
+    text-align: center;
+}
+
+.second-tp p{
+    color: #fff;
+}
+
+.second-button{
+    text-align: center;
+}
+.btn h6{
+    color: #000fff;
+}
+
+.card-image img{
+    width: 260px;
+    height: 360px;
+}
+
+.btn-center{
+    margin-left: 35rem;
+}
+
+#third-place{
+    background-image: url(/Clinika/image/third-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 5rem;
+}
+
+.title-3rdplace h1{
+    color: #5b5b5b;
+}
+
+.title-3rdplace h3{
+    color: #fff;
+}
+
+.third-p {
+    text-align: center;
+}
+
+.third-p p{
+    color: #fff;
+}
+
+.mail-input{
+    text-align: center;
+    border-radius: 40px;
+    border-radius: 1px solid #fff ;
+    background-color: #fff;
+    width: 40%;
+    height: 80px;
+    margin-left: 30rem;
+}
+
+.mail-input input{
+    border: none;
+    margin: 1.5rem 4rem 0 0;
+}
+
+.partner{
+    text-align: center;
+}
+
+.partner p{
+    color: #9e9e9e;
+    font-size: larger;
+}
+
+.partners
+{
+    text-align: center;
+}
+
+.partners img{
+    width: 160px;
+    height: auto;
+    opacity: 0.3;
+    filter: grayscale(1);
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.partners img:hover{
+    opacity: 1;
+}
+
+#benefits{
+    background-color: #f5f7fb;
+}
+
+.benefit-title h1{
+    color: #edf1f7;
+}
+
+.logos-images img{
+    width: 70px;
+    height: 75px;
+}
+
+.benefits{
+    display: flex;
+    display: inline;
+    position: relative;
+}
+
+.benefit-right{
+    position: absolute;
+    right: 0;
+    top: 340rem;
+}
+
+.benefit-right img{
+    width: 590px;
+    height: 590px;
+}
+
+.card-less{
+    margin-top: 5rem;
+    margin-right: 3rem;
+}
+
+.end-parag{
+    text-align: center;
+}
+
+.blog-image img{
+    width: 370px;
+    height: 265px;
+}
+
+.blog-text:nth-child(3){
+    font-size: larger;
+    color: #223441;
+}
+
+.blog-text:nth-child(3):hover{
+    color: #000fff;
+}
